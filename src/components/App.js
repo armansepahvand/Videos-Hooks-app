@@ -3,6 +3,7 @@ import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 import useVideos from "../hooks/useVideos";
+const KEY = "AIzaSyBu9wOVji4MR4mQKOS3ocm_7Yzb9VlrBO4";
 
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
