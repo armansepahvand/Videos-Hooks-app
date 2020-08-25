@@ -3,7 +3,6 @@ import youtube from "../apis/youtube";
 
 const useVideos = (defaultSearchTerm) => {
   const [videos, setVideos] = useState([]);
-  const KEY = "AIzaSyBu9wOVji4MR4mQKOS3ocm_7Yzb9VlrBO4";
 
   useEffect(() => {
     search(defaultSearchTerm);
