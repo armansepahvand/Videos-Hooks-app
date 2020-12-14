@@ -1,5 +1,6 @@
 import React from 'react';
 
+//component to get the selected video prop and get the vido title and description and show it on the main page
 const VideoDetail = ({video}) => {
     if(!video){
         return <div>Loding..</div>
