@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 
 const SearchBar = ({ onFormSubmit }) => {
+
+  //state for search term
   const [term, setTerm] = useState("");
 
+  //function to set the term to the value of input tag
   const onInputChange = (event) => {
     setTerm(event.target.value);
   };
 
+  //function to pass the term to the onFormSubmit prop
   const onSubmit = (event) => {
     event.preventDefault();
 
